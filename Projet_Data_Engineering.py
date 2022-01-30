@@ -5,13 +5,13 @@ from json import JSONEncoder
 import re
 
 ###Path ####
-pubmed = "/home/fitec/Bureau/Projet_santé/test_de_python_v2/projet/pubmed.csv"
+pubmed = "pubmed.csv"
 
-drugs = "/home/fitec/Bureau/Projet_santé/test_de_python_v2/projet/drugs.csv"
+drugs = "drugs.csv"
 
-clinical_trials= "/home/fitec/Bureau/Projet_santé/test_de_python_v2/projet/clinical_trials.csv"
+clinical_trials= "clinical_trials.csv"
 
-pubmed_json = "/home/fitec/Bureau/Projet_santé/test_de_python_v2/projet/pubmed.json"
+pubmed_json = "pubmed.json"
 
 ############ Cleaning data_clinical_trials ##########################
 
