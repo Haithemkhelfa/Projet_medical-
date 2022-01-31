@@ -12,8 +12,8 @@ cp pubmed.json tempdir/.
 
 echo "FROM python" > tempdir/Dockerfile
 echo "RUN pip3 install pandas" >> tempdir/Dockerfile
-echo "RUN pip3 install json" >> tempdir/Dockerfile
-echo "RUN pip3 install re" >> tempdir/Dockerfile
+echo "RUN pip install json" >> tempdir/Dockerfile
+echo "RUN pip install re" >> tempdir/Dockerfile
 echo "COPY Projet_Data_Engineering.py /home/myapp/" >> tempdir/Dockerfile
 echo "EXPOSE 5050" >> tempdir/Dockerfile
 echo "CMD python3 /home/myapp/Projet_Data_Engineering.py" >> tempdir/Dockerfile
